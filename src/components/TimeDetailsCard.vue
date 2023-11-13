@@ -26,7 +26,7 @@ const props = defineProps<{
 const title = props.data.title;
 
 const getTitleIcon = computed(() => {
-  const base = "images/";
+  const base = "/assets/images/";
 
   switch (title) {
     case "Work":
