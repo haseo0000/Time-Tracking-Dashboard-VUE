@@ -1,7 +1,7 @@
 <template>
   <div class="profile_card__container">
     <div class="header__container">
-      <img src="@/assets/images/image-jeremy.png" alt="img-profile" width="50" />
+      <img src="images/image-jeremy.png" alt="img-profile" width="50" />
       <div class="profile__container">
         <span class="profile_title">Report for</span>
         <span class="profile_name">Jeremy Robson</span>

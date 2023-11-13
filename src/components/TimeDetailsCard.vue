@@ -17,6 +17,7 @@
 <script setup lang="ts">
 import type { TimeTrackerDataT } from "@/views/TimeTrackerView.vue";
 import { computed } from "vue";
+import {} from "../assets/images/icon-work.svg";
 
 const props = defineProps<{
   data: TimeTrackerDataT;
@@ -26,11 +27,11 @@ const props = defineProps<{
 const title = props.data.title;
 
 const getTitleIcon = computed(() => {
-  const base = "/src/assets/images/";
+  const base = "images/";
 
   switch (title) {
     case "Work":
-      return base + `icon-work.svg`;
+      return base + "icon-work.svg";
     case "Play":
       return base + `icon-play.svg`;
     case "Study":
