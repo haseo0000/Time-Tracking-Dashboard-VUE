@@ -1,6 +1,6 @@
 <template>
   <div class="timedetails_card__container" :data-bg-type="title">
-    <img :src="getTitleIcon" alt="icon-work" width="50" />
+    <img src="icon-work.svg" :alt="title" width="50" />
     <div class="timedetail__container">
       <div>
         <span>{{ title }}</span>
@@ -26,7 +26,7 @@ const props = defineProps<{
 const title = props.data.title;
 
 const getTitleIcon = computed(() => {
-  const base = "/assets/";
+  const base = "/src/assets/images/";
 
   switch (title) {
     case "Work":
