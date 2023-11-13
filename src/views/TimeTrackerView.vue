@@ -46,8 +46,6 @@ const handleSelectedTime = (time: string) => {
 
 @media (min-width: 1024px) {
   .timetracker__container {
-    max-width: 70%;
-    margin-inline: auto;
     grid-template-columns: repeat(4, 1fr);
   }
 }
