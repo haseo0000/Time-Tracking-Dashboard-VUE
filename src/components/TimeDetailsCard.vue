@@ -17,7 +17,6 @@
 <script setup lang="ts">
 import type { TimeTrackerDataT } from "@/views/TimeTrackerView.vue";
 import { computed } from "vue";
-import {} from "../assets/images/icon-work.svg";
 
 const props = defineProps<{
   data: TimeTrackerDataT;
