@@ -1,6 +1,6 @@
 <template>
   <div class="timedetails_card__container" :data-bg-type="title">
-    <img src="icon-work.svg" :alt="title" width="50" />
+    <img :src="getTitleIcon" :alt="title" width="50" />
     <div class="timedetail__container">
       <div>
         <span>{{ title }}</span>
